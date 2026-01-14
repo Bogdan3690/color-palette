@@ -6,9 +6,9 @@
 // щоб отримати елемент, на якому відбулася подія і пов'язаний з ним колір,
 // який будемо зберігати в атрибуті data-color.
 const container = document.querySelector('.color-palette')
+const text = document.querySelector('.output')
+
 console.log(container);
-
-
 
 function createItems(){
     let items = []
